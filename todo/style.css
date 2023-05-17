@@ -15,7 +15,7 @@ body{
 }
 
 .container{
-    max-width: 992px;
+    max-width: 768px;
     width: 90%;
     border: 1px solid black;
     border-radius: 4px;
@@ -44,6 +44,7 @@ input{
     border: 1px solid #bdc3c7;
     outline-color: #4cd137;
 }
+
 input::placeholder{
     font-weight: 500;
 }
@@ -67,7 +68,7 @@ button{
     letter-spacing: 1px;
 }
 
-.states .all{
+.active{
     color:#4cd137;
 }
 
@@ -76,9 +77,6 @@ ul{
     display: none;
 }
 
-ul.active{
-    display: none;
-}
 ul > li{
     display: flex;
     align-items: center;
@@ -108,12 +106,15 @@ ul > li i:first-child{
     margin-right: 1.5rem;
     transition: all 0.3s ease-in-out;
 }
+
 ul > li i:first-child:hover{
     color:#00a8ff;
 }
+
 ul > li i:last-child{
     transition: all 0.3s ease-in-out;
 }
+
 ul > li i:last-child:hover{
     color:#e84118;
 }
