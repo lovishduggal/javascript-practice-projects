@@ -59,6 +59,7 @@ input::placeholder {
     font-size: 1.1rem;
     color: hsl(123, 38%, 57%);
     padding: 0.5rem;
+    cursor: pointer;
 }
 
 .output-wrapper .word-sound{
@@ -77,7 +78,7 @@ h2 {
     font-size: 1.1rem;
     color: hsl(0, 0%, 82%);
     padding: 0.5rem;
-    transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .output-wrapper .word-sound .fa-volume-high:hover{
@@ -95,5 +96,6 @@ h2 {
     margin-right: 1rem;
     margin-bottom: 0.5rem;
     border-radius: 4px;
+    cursor: pointer;
 }
 
